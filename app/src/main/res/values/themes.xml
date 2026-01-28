@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LogBook" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Evita ecrã branco ao abrir a app -->
+        <item name="android:windowBackground">@android:color/black</item>
+
+        <!-- Android 12+ splash screen (nota o android:) -->
+        <item name="android:windowSplashScreenBackground">@android:color/black</item>
+    </style>
+
+</resources>
